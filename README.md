@@ -1,18 +1,16 @@
 # Reinforcement Learning Reward Design Exercise
 
-[![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?logo=googlecolab&logoColor=fff&style=for-the-badge)](https://colab.research.google.com/drive/1SAi1mqlKsceHQ0nLfddgx9zEOxw0vW4k?usp=drive_link)
+[![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?logo=googlecolab&logoColor=fff&style=for-the-badge)](https://colab.research.google.com/drive/101AZsaAstLZ-zEZnoyOOoG-vcO1BaNv5?usp=sharing)
 
 In this exercise, you will be applying the reinforcement learning and traffic management concepts explained in the knowledge capsule. We will be focusing on the reward function and how designers aim to guide RL agents towards learning an optimal policy.
 
 All necessary code can be found in the '_RL KC Exercise_' notebook. We use a small 4-way intersection with a Deep Q-Network (DQN) traffic signal controller, as visualised below. An empty cell has been left for the implementation of the reward function itself, along with some instructions on how to fetch data from the simulation.
 
-The exercise can be run locally, but it is recommeded to use [Google Colab](https://colab.research.google.com/drive/1SAi1mqlKsceHQ0nLfddgx9zEOxw0vW4k?usp=drive_link). In this case, create your own copy before starting your work ('_file_' > '_Save a copy in Drive_').
+The exercise can easily be run locally, but you may also use [Google Colab](https://colab.research.google.com/drive/101AZsaAstLZ-zEZnoyOOoG-vcO1BaNv5?usp=sharing). In this case, create your own copy before starting your work ('_file_' > '_Save a copy in Drive_').
 
 The scenario is simulated using the package UXsim:
   - Documentation: https://toruseo.jp/UXsim/docs/index.html
   - This exercise is based on this [DQN example](https://toruseo.jp/UXsim/docs/notebooks/demo_notebook_03en_pytorch.html).
-
-<img src="final_eval.gif">
 
 ---
 ## Objectives
